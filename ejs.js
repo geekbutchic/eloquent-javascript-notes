@@ -23,7 +23,7 @@ console.log(total);
 console.log(typeof 4.5)
 console.log(typeof "x")
 
-// - CAN BE BOTH UNARY AND BINARY OPERATOR
+// CAN BE BOTH UNARY AND BINARY OPERATOR
 console.log(-(10-2))
 
 // ============================================
@@ -32,9 +32,18 @@ console.log(3 > 2)
 console.log(3 < 2)
 
 // ============================================
+// The || operator denotes logical or.  It produces true if either
+// of the values given to it is true.
+console.log(false || true)
+console.log(false || false)
 
+// ============================================
 
+1 + 1 === 2 && 10 * 10 > 50; //?
 
+// ============================================
 
+console.log(true ? 1 : 2);
+console.log(false ? 1 : 2);
 
-
+console.log(null !== 0) 
