@@ -47,3 +47,34 @@ console.log(true ? 1 : 2);
 console.log(false ? 1 : 2);
 
 console.log(null !== 0) 
+
+// ============================================
+
+console.log(true || x);
+
+// ============================================
+// Bindings or Variables
+
+let caught = 5 * 5;
+console.log(caught);
+
+// ============================================
+// Chapter 2 
+// Variables 
+let one = 1, two = 2;
+console.log(one + two);
+
+// ============================================
+// Return values
+`Math.max`
+
+console.log(Math.max(2, 4));
+
+// ============================================
+
+`Math.min`
+
+console.log(Math.min( 2, 4) + 100);
+
+// ============================================
+
